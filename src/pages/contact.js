@@ -4,7 +4,7 @@ import Footer from "../components/footer";
 import Shake from "../images/shake.jpg";
 import Thorny from "../images/thorny.png";
 import Roses from "../images/roses.jpg";
-import BudsCCC from "../images/budsCCC.JPG";
+import BudsCCC from "../images/budsCCC.jpg";
 const Contact = () => {
   const programCard = (title, img, alt, email, intForm) => {
     // let linkIntForm;
