@@ -4,7 +4,7 @@ import Footer from "../components/footer";
 import Shake from "../images/shake.jpg";
 import Thorny from "../images/thorny.png";
 import Roses from "../images/roses.jpg";
-import BudsCCC from "../images/ccc-invite.jpg";
+import BudsNationals from "../images/buds nationals.jpg";
 const Contact = () => {
   const programCard = (title, img, alt, email, intForm) => {
     // let linkIntForm;
@@ -56,7 +56,10 @@ const Contact = () => {
             </div>
           </div>
           <div className="col-start-8 col-end-13 bg-red-100 flex flex-grow basis-full">
-            <img src={BudsCCC} alt="Tomer at College Championships 2021"></img>
+            <img
+              src={BudsNationals}
+              alt="Tomer at College Championships 2021"
+            ></img>
           </div>
         </div>
         <div className="grid grid-cols-12 flex">
