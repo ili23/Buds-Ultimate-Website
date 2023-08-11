@@ -44,12 +44,12 @@ const Contact = () => {
               <a href="mailto:buds@cornell.edu">buds@cornell.edu</a>
             </div>
             {/* need to change the website link */}
-            <div className="py-2">
+            <div className="py-2 underline">
               {" "}
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://docs.google.com/forms/d/e/1FAIpQLScyJaT7CctsmDmjHGg1FaKiBX0fqajRoy75F0DvgdW1nksQTw/viewform"
+                href="https://forms.gle/YobWPg73fvMU1VMeA"
               >
                 Link to Interest Form
               </a>

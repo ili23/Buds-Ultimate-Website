@@ -1,6 +1,6 @@
-import * as React from "react"
-import Navbar from "./navbar"
-import SocialMedia from "./socialmedia"
+import * as React from "react";
+import Navbar from "./navbar";
+import SocialMedia from "./socialmedia";
 
 const NavbarAndSocial = () => {
   return (
@@ -8,6 +8,6 @@ const NavbarAndSocial = () => {
       <Navbar />
       <SocialMedia />
     </div>
-  )
-}
-export default NavbarAndSocial
+  );
+};
+export default NavbarAndSocial;
