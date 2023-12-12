@@ -46,7 +46,8 @@ const Footer = () => {
     <div className="w-screen bg-red-400 px-[15%] text-black pb-4">
       <div className="grid grid-cols-12 pt-6 flex flex-row">
         <div className="col-start-1 col-end-6">
-          <p className="text-3xl">Cornell Buds Ultimate</p>
+          <p className="text-3xl">Buds Ultimate</p>
+
           <div className="pt-3">{socialMedia()}</div>
           <div className="text-xs pt-5">
             <a
@@ -97,6 +98,10 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+          <p className="bold text-xs pt-5">
+            This organization is a registered student organization of Cornell
+            University.
+          </p>
         </div>
       </div>
     </div>

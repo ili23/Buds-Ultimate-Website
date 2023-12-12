@@ -10,7 +10,7 @@ const Navbar = () => {
           <div class="inline-flex">
             <img src={BudsLogo} class="h-14 mr-1" alt="Buds Logo" />
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Cornell Buds Ultimate
+              Buds Ultimate at Cornell
             </span>
           </div>
         </Link>
