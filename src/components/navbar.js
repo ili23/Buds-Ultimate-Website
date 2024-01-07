@@ -5,10 +5,14 @@ import BudsLogo from "../images/icons/red-buds-logo.png";
 const Navbar = () => {
   return (
     <nav class="bg-transparent">
-      <div class="w-screen flex flex-wrap items-center justify-between mx-auto pt-6 px-12">
+      <div class="w-screen flex flex-wrap items-center justify-between mx-auto py-6 md:pt-6 lg:pt-6 px-4 md:px-12 lg:px-12">
         <Link to="/">
           <div class="inline-flex">
-            <img src={BudsLogo} class="h-14 mr-1" alt="Buds Logo" />
+            <img
+              src={BudsLogo}
+              class="h-10 md:h-14 lg:h-14 mr-1"
+              alt="Buds Logo"
+            />
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               Buds Ultimate at Cornell
             </span>
