@@ -4,7 +4,7 @@ import Footer from "../components/footer";
 import Carousel from "../components/carousel.js";
 const IndexPage = () => {
   return (
-    <main className="bg-[#1E1E1E] h-fit w-screen">
+    <main className="bg-[#1E1E1E] h-screen md:h-fit lg:h-fit w-screen">
       <NavbarAndSocial />
       <div className="h-[40vh] pt-5">
         <Carousel />

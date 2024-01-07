@@ -41,8 +41,8 @@ const Footer = () => {
   };
 
   return (
-    <div className="px-[5%] w-screen bg-red-400 md:px-[15%] lg:px-[15%] text-black pb-4">
-      <div className="grid grid-cols-12 pt-6 flex flex-row">
+    <div className="px-[5%] w-screen bg-red-400 md:px-[15%] lg:px-[15%] text-black pb-4 h-[30vh] content-center flex justify-center items-center">
+      <div className="grid grid-cols-12 pt-6 flex flex-row ">
         <div className="col-start-1 col-end-4 md:col-end-6 lg:col-end-6">
           <p className="hidden md:block lg:block xl:block text-3xl">
             Buds Ultimate
