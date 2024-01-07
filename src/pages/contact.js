@@ -6,23 +6,18 @@ import Thorny from "../images/thorny.png";
 import Roses from "../images/roses.jpg";
 import BudsNationals from "../images/buds nationals.jpg";
 const Contact = () => {
-  const programCard = (title, img, alt, email, intForm) => {
-    // let linkIntForm;
-    // if (intForm !== "") {
-    //   linkIntForm = (<h2><a href={intForm}>Interest Form</a></h2>)
-    // } else {
-    //   linkIntForm = (<div></div>)
-    // }
+  const programCard = (title, img, alt, email) => {
     let link = "mailto:" + email;
     return (
-      <div className="mt-20 flex justify-center">
-        <div>
-          <img className="w-auto max-h-60" src={img} alt={alt}></img>
-          <h1 className="text-2xl pt-4">{title}</h1>
-          <h2>
-            Email: <a href={link}>{email}</a>
-          </h2>
-          {/* {linkIntForm} */}
+      <div className="mt-10 md:mt-20 md:flex md:justify-center">
+        <div className="flex flex-row space-x-4">
+          <img className="w-[30vw]" src={img} alt={alt}></img>
+          <div className="flex-col">
+            <h1 className="text-xl md:text-2xl md:pt-4">{title}</h1>
+            <h2>
+              Email: <a href={link}>{email}</a>
+            </h2>
+          </div>
         </div>
       </div>
     );
@@ -31,10 +26,10 @@ const Contact = () => {
   return (
     <main className="bg-[#1E1E1E] h-fit w-screen">
       <NavbarAndSocial />
-      <div className=" px-[10%] h-fit w-screen mt-28">
-        <div className="grid grid-cols-12 flex items-center max-h-80">
-          <div className="col-start-1 col-end-8 text-xl">
-            <h1 className="text-5xl mb-8">Connect With Us!</h1>
+      <div className="px-[10%] h-fit w-screen mt-8 md:mt-28 ">
+        <div className="md:grid md:grid-cols-12 md:flex md:items-center max-h-80">
+          <div className="md:col-start-1 md:col-end-8 md:text-xl">
+            <h1 className="text-4xl md:text-5xl mb-8">Connect With Us!</h1>
             <h2 className="py-2">
               Feel free to reach out with questions and fill out the interest
               form to get updates!
@@ -62,40 +57,42 @@ const Contact = () => {
             ></img>
           </div>
         </div>
-        <div className="grid grid-cols-12 flex">
-          <div className="text-5xl col-start-1 col-end-13 pt-40">
+        <div className="md:grid md:grid-cols-12 md:flex">
+          <div className="text-4xl md:text-5xl col-start-1 col-end-13 pt-40">
             Connect with the Cornell Ultimate Frisbee Community:
           </div>
-          <div className="col-start-1 col-end-5 pb-20">
-            {programCard(
-              "Shake (Cornell Men's B team)",
-              Shake,
-              "Cornell Shake",
-              "shake@cornell.edu",
-              ""
-            )}
-          </div>
-          <div className="col-start-5 col-end-9">
-            {programCard(
-              "Wild Roses (Cornell Women's A team)",
-              Roses,
-              "Cornell Wild Roses",
-              "roses@cornell.edu",
-              "https://docs.google.com/forms/d/e/1FAIpQLSfRCjt0mvmL5HZl0j92CNWgqsC7QLV9qoo0AdCYuElC4WyK8g/viewform"
-            )}
-          </div>
-          <div className="col-start-9 col-end-13">
-            {programCard(
-              "Thorny (Cornell Women's B team)",
-              Thorny,
-              "Cornell Thorny",
-              "thorny@cornell.edu",
-              ""
-            )}
+          <div className="flex-col">
+            <div className="md:col-start-1 md:col-end-5 md:pb-20">
+              {programCard(
+                "Shake (Cornell Men's B team)",
+                Shake,
+                "Cornell Shake",
+                "shake@cornell.edu",
+                ""
+              )}
+            </div>
+            <div className="md:col-start-5 md:col-end-9">
+              {programCard(
+                "Wild Roses (Cornell Women's A team)",
+                Roses,
+                "Cornell Wild Roses",
+                "roses@cornell.edu",
+                "https://docs.google.com/forms/d/e/1FAIpQLSfRCjt0mvmL5HZl0j92CNWgqsC7QLV9qoo0AdCYuElC4WyK8g/viewform"
+              )}
+            </div>
+            <div className="md:col-start-9 md:col-end-13">
+              {programCard(
+                "Thorny (Cornell Women's B team)",
+                Thorny,
+                "Cornell Thorny",
+                "thorny@cornell.edu",
+                ""
+              )}
+            </div>
           </div>
         </div>
       </div>
-      <h1 className="text-3xl underline text-center pb-20">
+      <h1 className="text-2xl md:text-3xl underline text-center py-20">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRCjt0mvmL5HZl0j92CNWgqsC7QLV9qoo0AdCYuElC4WyK8g/viewform">
           2023-2024 Program Wide Interest Form
         </a>
