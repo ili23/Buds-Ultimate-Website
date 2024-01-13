@@ -43,7 +43,7 @@ const Footer = () => {
   return (
     <div className="px-[5%] w-screen bg-red-400 md:px-[15%] lg:px-[15%] text-black pb-4 h-[30vh] content-center flex justify-center items-center">
       <div className="grid grid-cols-12 pt-6 flex flex-row ">
-        <div className="col-start-1 col-end-4 md:col-end-6 lg:col-end-6">
+        <div className="col-start-1 col-end-3 md:col-end-6 lg:col-end-6">
           <p className="hidden md:block lg:block xl:block text-3xl">
             Buds Ultimate
           </p>
@@ -62,7 +62,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="col-start-4 col-end-13 md:col-start-8 md:col-end-12 lg:col-start-8 lg:col-end-12 text-xl">
+        <div className="col-start-3 col-end-12 md:col-start-8 md:col-end-12 lg:col-start-8 lg:col-end-12 text-xl">
           <p className="text-3xl hidden md:block lg:block xl:block">Explore</p>
           <div className="flex">
             <ul className="flex text-xs flex-row pt-3 divide-x divide-black md:text-lg lg:text-lg">
@@ -91,7 +91,7 @@ const Footer = () => {
                   Donate
                 </Link>
               </li>
-              <li className="px-2 md:px-4 lg:px-4">
+              <li className="pl-2 md:px-4 lg:px-4">
                 <Link activeClassName="underline" to="/archive">
                   Archive
                 </Link>
