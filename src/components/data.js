@@ -5,7 +5,7 @@ const data = [
   ],
   [
     "Who can join?",
-    "Anybody can join the men’s ultimate program at Cornell! The Buds have a competitive tryout process that lasts several weeks at the beginning of the fall season. We look not just for technical disc skills but also for athleticism , collaboration, and energy so newcomers to ultimate are welcome! Our developmental team, the Shake, does not have tryouts, and anybody can play with them, ensuring that all who want to join Cornell Ultimate can. Please email the captains at buds@cornell.edu if you have any questions about the tryout process.",
+    "Anybody can join the men’s ultimate program at Cornell! The Buds have a competitive tryout process that lasts several weeks at the beginning of the fall season. We look not just for technical disc skills but also for athleticism, collaboration, and energy so newcomers to ultimate are welcome! Our developmental team, the Shake, does not have tryouts, and anybody can play with them, ensuring that all who want to join Cornell Ultimate can. Please email the captains at buds@cornell.edu if you have any questions about the tryout process.",
   ],
   [
     "Practices  / Tournaments",
