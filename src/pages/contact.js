@@ -9,9 +9,13 @@ const Contact = () => {
   const programCard = (title, img, alt, email) => {
     let link = "mailto:" + email;
     return (
-      <div className="mt-10 md:mt-20 md:flex md:justify-center">
-        <div className="flex flex-row space-x-4">
-          <img className="w-[30vw]" src={img} alt={alt}></img>
+      <div className="mt-10 md:mt-20 md:flex md:justify-center md:px-4">
+        <div className="flex flex-row space-x-4 md:flex-col ">
+          <img
+            className="w-[30vw] md:w-auto md:max-h-60"
+            src={img}
+            alt={alt}
+          ></img>
           <div className="flex-col">
             <h1 className="text-xl md:text-2xl md:pt-4">{title}</h1>
             <h2>
@@ -57,11 +61,11 @@ const Contact = () => {
             ></img>
           </div>
         </div>
-        <div className="md:grid md:grid-cols-12 md:flex">
+        <div className="md:grid md:grid-cols-12 md:flex ">
           <div className="text-4xl md:text-5xl col-start-1 col-end-13 pt-40">
             Connect with the Cornell Ultimate Frisbee Community:
           </div>
-          <div className="flex-col">
+          <div className="flex-col md:grid md:col-start-1 md:col-end-13">
             <div className="md:col-start-1 md:col-end-5 md:pb-20">
               {programCard(
                 "Shake (Cornell Men's B team)",
