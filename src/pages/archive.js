@@ -39,7 +39,7 @@ const Archive = () => {
         <div className="col-start-4 col-end-7 md:col-start-6 md:col-end-8">
           <ul className="text-sm md:text-base">{secondHalfPlayerList}</ul>
         </div>
-        <div className="col-start-8 col-end-13 hidden md:visible">
+        <div className="col-start-8 col-end-13 hidden md:block">
           <img src={img} alt={"Team Photo from" + year}></img>
         </div>
       </div>
