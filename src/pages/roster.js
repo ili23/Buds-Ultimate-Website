@@ -10,12 +10,12 @@ const Roster = () => {
         <div className="flex flex-col w-full text-right">
           <h1 className="text-5xl">2023-2024 Roster</h1>
           <div className="text-xl pt-4">
-            Stay tuned for the 2023-2024 Roster. Tryout information will be
+            Stay tuned for the 2024-2025 Roster. Tryout information will be
             posted soon. In the meantime, fill out the interest form below!
           </div>
           <div className="underline text-xl py-2">
             <a href="https://forms.gle/YobWPg73fvMU1VMeA">
-              2023-2024 Interest Form
+              2024-2025 Interest Form
             </a>
           </div>
           <div className=" underline text-xl">
