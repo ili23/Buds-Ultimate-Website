@@ -8,7 +8,7 @@ const Roster = () => {
       <NavbarAndSocial />
       <div className="px-[10%] h-screen py-16 flex items-center ">
         <div className="flex flex-col w-full text-right">
-          <h1 className="text-5xl">2023-2024 Roster</h1>
+          <h1 className="text-5xl">2024-2025 Roster</h1>
           <div className="text-xl pt-4">
             Stay tuned for the 2024-2025 Roster. Tryout information will be
             posted soon. In the meantime, fill out the interest form below!
