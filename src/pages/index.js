@@ -19,4 +19,4 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>Cornell Buds</title>;
+export const Head = () => <title>Buds Ultimate</title>;
