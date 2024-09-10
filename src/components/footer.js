@@ -32,10 +32,6 @@ const Footer = () => {
           <FaYoutube className="h-6 w-6 md:h-8 md:w-8 lg:h-8 lg:w-8" />,
           "https://www.youtube.com/@budsultimate278"
         )}
-        {createIcon(
-          <FaFacebook className="h-6 w-6 md:h-8 md:w-8 lg:h-8 lg:w-8" />,
-          "https://www.facebook.com/CornellBudsUltimate/"
-        )}
       </div>
     );
   };

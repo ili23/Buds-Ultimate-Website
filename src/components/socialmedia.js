@@ -2,7 +2,6 @@ import * as React from "react";
 import Twitter from "../images/icons/twitter.png";
 import Youtube from "../images/icons/youtube.png";
 import Instagram from "../images/icons/insta.png";
-import Facebook from "../images/icons/facebook.png";
 
 const SocialMedia = () => {
   const createIcon = (src, alt, link) => {
@@ -27,11 +26,6 @@ const SocialMedia = () => {
         Youtube,
         "Youtube icon",
         "https://www.youtube.com/@budsultimate278"
-      )}
-      {createIcon(
-        Facebook,
-        "Facebook icon",
-        "https://www.facebook.com/CornellBudsUltimate/"
       )}
     </div>
   );
