@@ -15,11 +15,46 @@ import y20_21 from "../images/archives/2020-2021.jpg";
 import y21_22 from "../images/archives/2021-2022.jpg";
 import y22_23 from "../images/archives/2022-2023.jpg";
 import y23_24 from "../images/archives/2023-2024.png";
+import y24_25 from "../images/archives/2024-2025.png";
 /* 
 When adding new rosters, make sure to prepend to array in the format: 
 [Year (str), Photo (filepath), Coaches (list of str), Captains (list of str), Players (list of str)]
 */
 const rosters = [
+  [
+    "2024-2025",
+    y24_25,
+    ["Sam Garncarz", "Brian Marland", "Luke Colwell", "Dan Vandam"],
+    ["Iram Liu", "Davith Chan", "Lewis Sisler", "Simon Alford"],
+    [
+      "Parker Ashworth",
+      "Zach Cheslock",
+      "Nathaniel Chin",
+      "Meris Goldfarb",
+      "Jacob Groner",
+      "Kazim Hall",
+      "Nate Haris",
+      "Bobby Henkelmann",
+      "Matthew Hui",
+      "Sam Karmarkar",
+      "Dylan Kenniff",
+      "Ren Kondo",
+      "Ka Lok Ethan Lau",
+      "Max Majersik",
+      "Thomas Meyer",
+      "Ben Nusbaum",
+      "Spencer Peters",
+      "Mason Raffo",
+      "Milo Rappaport",
+      "Ryan Rockett",
+      "Ethan Roitman",
+      "Micah Schuchman",
+      "Zander Schatzberg",
+      "Lewis Sisler",
+      "Tyler Sprague",
+      "Dylan Winchell",
+    ],
+  ],
   [
     "2023-2024",
     y23_24,
