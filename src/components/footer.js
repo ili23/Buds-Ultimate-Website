@@ -6,7 +6,7 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
-import Github from "../images/icons/github.png";
+
 const Footer = () => {
   const socialMedia = () => {
     const createIcon = (input, link) => {
@@ -43,20 +43,7 @@ const Footer = () => {
           <p className="hidden md:block lg:block xl:block text-3xl">
             Buds Ultimate
           </p>
-
           <div className="pt-3">{socialMedia()}</div>
-          <div className="text-xs pt-5 hidden md:block lg:block xl:block">
-            <a
-              href="https://github.com/ili23"
-              className="flex flex-row"
-              rel="noreferrer"
-              target="_blank"
-            >
-              {" "}
-              <div>Site by Iram L.</div>
-              <img className="h-4" src={Github} alt="Github"></img>{" "}
-            </a>
-          </div>
         </div>
         <div className="col-start-3 col-end-12 md:col-start-8 md:col-end-12 lg:col-start-8 lg:col-end-12 text-xl">
           <p className="text-3xl hidden md:block lg:block xl:block">Explore</p>
@@ -94,20 +81,18 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <p className="bold text-xs pt-5">
-            This organization is a registered student organization of Cornell
-            University.
-          </p>
-          <div className="text-xs pt-5 md:hidden lg:hidden xl:hidden text-black">
+          <div className="bold text-xs pt-5">
+            <p>
+              This organization is a registered student organization of Cornell
+              University.
+            </p>
             <a
-              href="https://github.com/ili23"
-              className="flex flex-row"
+              href="https://hr.cornell.edu/about/workplace-rights/equal-education-and-employment"
+              className="flex flex-row underline"
               rel="noreferrer"
               target="_blank"
             >
-              {" "}
-              <div>Site by Iram L.</div>
-              <img className="h-4" src={Github} alt="Github"></img>{" "}
+              Equal Education and Employment
             </a>
           </div>
         </div>
