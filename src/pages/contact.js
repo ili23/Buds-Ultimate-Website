@@ -5,6 +5,7 @@ import Shake from "../images/shake.jpg";
 import Thorny from "../images/thorny.png";
 import Roses from "../images/roses.jpg";
 import BudsNationals from "../images/buds nationals.jpg";
+import buds_walk from "../images/buds_walk.jpg";
 const Contact = () => {
   const programCard = (title, img, alt, email) => {
     let link = "mailto:" + email;
@@ -56,8 +57,8 @@ const Contact = () => {
           </div>
           <div className="col-start-8 col-end-13 bg-red-100 flex flex-grow basis-full">
             <img
-              src={BudsNationals}
-              alt="Tomer at College Championships 2021"
+              src={buds_walk}
+              alt="Buds at Lobster Pot 2025"
             ></img>
           </div>
         </div>

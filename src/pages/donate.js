@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import NavbarAndSocial from "../components/nav_with_social";
 import Footer from "../components/footer";
 import BudsNationals from "../images/buds nationals.jpg";
+import chronological_jerseys from "../images/LP25_team_picture_2.jpg";
 
 const Donate = () => {
   const donationLink =
@@ -43,7 +44,7 @@ const Donate = () => {
           </div>
           <img
             className="col-start-7 col-end-13 pt-6"
-            src={BudsNationals}
+            src={chronological_jerseys}
           ></img>
         </div>
       </div>

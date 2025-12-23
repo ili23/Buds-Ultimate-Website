@@ -6,6 +6,9 @@ import snow from "../images/Snow.jpg";
 import ethan from "../images/ethan.jpg";
 import tomer from "../images/tomer.jpg";
 import shake from "../images/shake.jpg";
+import max from "../images/max_parody.jpg";
+import noms from "../images/noms_regionals.jpg";
+import simon from "../images/simon_layout.jpg";
 const createMobileSection = (header, text, image, alt, linebreak, shadow) => {
   return (
     <div className="py-8">
@@ -102,24 +105,24 @@ const About = () => {
         {createRightImageSection(
           Data[0][0],
           Data[0][1],
-          snow,
-          "Dylan Winchell at USAU D1 College Championships 2023",
+          max,
+          "Max Majersik at Lobster Pot 2025",
           "",
           "shadow-lg shadow-red-700"
         )}
         {createLeftImageSection(
           Data[1][0],
           Data[1][1],
-          tomer,
-          "Tomer Poole-Dayan at USAU D1 College Championships 2021",
+          noms,
+          "Ben Nusbaum at Metro East regionals, 2025",
           "",
           "shadow-lg shadow-sky-200"
         )}
         {createRightImageSection(
           Data[2][0],
           Data[2][1],
-          ethan,
-          "Ethan Lau at USAU D1 College Championships 2023",
+          simon,
+          "Simon Alford at Lobster Pot 2025",
           Data[2][2],
           "shadow-lg shadow-green-100"
         )}
